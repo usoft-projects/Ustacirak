@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link href="../img/logo.png" rel="icon">
     <link href="../img/logo.png" rel="apple-touch-icon">
-    <title>Usta Çırak - Menü Yönetim Sistemi</title>
+    <title>Usta x Çırak - Menü Yönetim Sistemi</title>
 
     <!-- Custom fonts for this template-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" type="text/css">
@@ -28,8 +28,8 @@
 <body id="page-top">
 
  
-    <!-- Page Wrapper -->
-    <div id="wrapper">
+     <!-- Page Wrapper -->
+     <div id="wrapper">
 
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
@@ -47,7 +47,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="../index.html">
+                <a class="nav-link" href="../../Dashboard/index.html">
                     <i class="fas fa-fw fa-home"></i>
                     <!-- <i class="fas fa-fw fa-rocket-launch"></i> -->
                     <span>Anasayfa</span></a>
@@ -94,7 +94,7 @@
             <div class="sidebar-card d-none d-lg-flex">
                 <img class="sidebar-card-illustration mb-2" src="../img/logo.png" alt="...">
                 <p class="text-center mb-2" id="last_status">Lisans Bitiş Tarihi <br>
-                <a class="btn btn-danger btn-sm" href="#!" >Demo</a></p>
+                <a class="btn btn-danger btn-sm" href="#!" onclick="demo()">Demo</a></p>
             </div>
 
 
@@ -117,7 +117,7 @@
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow border-bottom-primary">
                     <img src="../img/logo.png" height="60px" style="border-radius: 50%;"> 
-                        <h1 class="h3 mb-0 text-gray-800">Usta Çırak - Yönetim Paneli</h1>
+                        <h1 class="h3 mb-0 text-gray-800"> Usta X Çırak Menü Yönetim Paneli</h1>
                         
                 </nav>
                 <!-- End of Topbar -->
@@ -131,8 +131,15 @@
                             <div class="d-sm-flex align-items-center justify-content-between mb-4">
                                 <h1 class="h3 mb-0 text-gray-800"> Kategori, Menü ve Fiyat Yönetimi </h1> 
                             </div>
-                            <button type="button" class="btn btn-info" onclick="newmenu()">Yeni Menü Ekle</button> &nbsp;&nbsp;
+                            <button type="button" class="btn btn-success" onclick="newmenu()">Yeni Menü Ekle</button> &nbsp;&nbsp;
                             <button type="button" class="btn btn-warning" onclick="newcategory()">Yeni Kategori Ekle</button> &nbsp;&nbsp;
+                            <button type="button" class="btn btn-danger" onclick="ordercategory()">Kategori Sırala</button> &nbsp;&nbsp;
+                            <!-- <button type="button" class="btn btn-warning" onclick="deletecategory()">Delete Categories</button> -->
+                        </div>
+                        <div class="card-header py-3" id="categories_filter">
+                            <!-- <button type="button" class="btn btn-info" onclick="newmenu()">Yeni Menü Ekle</button> &nbsp;&nbsp;
+                            <button type="button" class="btn btn-warning" onclick="newcategory()">Yeni Kategori Ekle</button> &nbsp;&nbsp;
+                            <button type="button" class="btn btn-danger" onclick="ordercategory()">Kategori Sırala</button> &nbsp;&nbsp; -->
                             <!-- <button type="button" class="btn btn-warning" onclick="deletecategory()">Delete Categories</button> -->
                         </div>
                         
@@ -182,6 +189,8 @@
             <!-- End of Footer -->
         </div>
         <!-- End of Content Wrapper -->
+
+    </div>
 
     </div>
     <!-- End of Page Wrapper -->
