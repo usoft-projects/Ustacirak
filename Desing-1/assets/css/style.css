@@ -521,6 +521,7 @@ h6 {
   animation-delay: 0.8s;
   color: #fff;
   border: 2px solid #cc43d3;
+  background-color: #cc43d328;
 }
 
 #hero .btn-menu:hover,
