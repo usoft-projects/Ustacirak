@@ -876,9 +876,9 @@ function ordercategory(){
 function demo(){
     Swal.fire({
         toast: true,
-        title: '<b>Demo Sürümü</b> ',
-        html:"Demo Bitiş Tarihi: <a href='mailto:usoft.projects@gmail.com'><b><u> 21.05.2024</b></u></a> <br> <p>&copy;Copyright 2024. All Rights Reserved.</p>",
-        imageUrl: '../img/rocket.png',
+        title: '<b>Lisans Sürümü</b> ',
+        html:"Lisans Bitiş Tarihi: 01.10.2024 <br><a href='mailto:usoft.projects@gmail.com'><b><u> Linsans Yenilemsi için iletişime geçin</b></u></a> <br> <p>&copy;Copyright 2024. All Rights Reserved.</p>",
+        imageUrl: 'img/rocket.png',
         imageAlt: 'Custom image',
-      });
+    });
 }
