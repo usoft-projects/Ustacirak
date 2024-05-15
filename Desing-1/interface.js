@@ -132,7 +132,6 @@ function init(){
           <div class="container" data-aos="fade-up"> \
             <div class="section-title"> \
               <h2>İletişim</h2> \
-              <p>İletişime Geçin</p> \
             </div> \
           </div> \
           <div class="container" data-aos="fade-up"> \
@@ -142,9 +141,9 @@ function init(){
                   <div class="address"> \
                     <i class="bi bi-geo-alt"></i> \
                     <h4>Yer/Konum:</h4> \
-                    <p>Van İpek Yolu Caddesi. Adliye Sarayı Karşısı<br> \
-                    65100 Merkez/Van <br> \
-                      Çalışma Saatleri : 09:00 - 24:00</p> \
+                    <p> Alaçatı, 13047 Sokak No.2, 35930 <br> \
+                    Çeşme/İzmir <br> \
+                      Çalışma Saatleri : 00:00 - 24:00</p> \
                   </div> \
                   <div class="email">\
                     <i class="bi bi-envelope"></i>\
@@ -154,7 +153,7 @@ function init(){
                   <div class="phone">\
                     <i class="bi bi-phone"></i>\
                     <h4>Telefon:</h4>\
-                    <p>05058421928</p>\
+                    <p>+905533498921</p>\
                   </div>\
                 </div>\
               </div>\
@@ -164,7 +163,7 @@ function init(){
         Swal.fire({
             toast: true,
             html:text   ,
-            imageUrl: 'assets/img/logo.jpg',
+            imageUrl: 'assets/img/logo.png',
             imageAlt: 'Custom image',
           });
     }
