@@ -91,7 +91,7 @@
             <div class="sidebar-card d-none d-lg-flex">
                 <img class="sidebar-card-illustration mb-2" src="img/logo.png" alt="...">
                 <p class="text-center mb-2" id="last_status">Lisans Bitiş Tarihi <br>
-                <a class="btn btn-danger btn-sm" href="#!" >Demo</a></p>
+                <a class="btn btn-success btn-sm" href="#!" onclick="demo()">01.10.2024</a></p>
             </div>
 
 
@@ -162,7 +162,16 @@
         imageUrl: 'img/rocket.png',
         imageAlt: 'Custom image',
       });
-}
+    }
 
+    function demo(){
+        Swal.fire({
+            toast: true,
+            title: '<b>Lisans Sürümü</b> ',
+            html:"Lisans Bitiş Tarihi: 01.10.2024 <br><a href='mailto:usoft.projects@gmail.com'><b><u> Linsans Yenilemsi için iletişime geçin</b></u></a> <br> <p>&copy;Copyright 2024. All Rights Reserved.</p>",
+            imageUrl: 'img/rocket.png',
+            imageAlt: 'Custom image',
+        });
+    }
 </script>
 </html>
